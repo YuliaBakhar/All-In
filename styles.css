@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.wrapper {
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #ededed 1px, transparent 0%) 1px, #fff;
+  background-size: calc(25% - 1px);
+}
+
+.nav {
+  list-style: none;
+  text-align: center;
+  padding: 117px 0;
+  font-size: 0;
+
+  overflow: hidden;
+}
+
+.nav-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #007fff;
+}
+
+.nav-item:nth-child(1) {
+  float: left;
+}
+
+.nav-item:nth-child(2) {
+  float: left;
+  margin-left: 70px;
+}
+
+.nav-item:nth-child(3) {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-31%) translateX(-50%);
+}
+
+.nav-item:last-child {
+  float: right;
+}
+
+.nav-item:nth-child(4) {
+  float: right;
+  margin-left: 70px;
+}
+
+.nav-avatar {
+  display: inline-block;
+
+  width: 52px;
+  height: 52px;
+
+  background: url(./images/avatar.png);
+  background-size: cover;
+
+  text-indent: -9999px;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #007fff;
+}
+
+.title {
+  margin-top: 17px;
+
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #000000;
+}
+
+.link {
+  text-decoration: none;
+  color: #007fff;
+}
+
+.social {
+  margin-top: 56px;
+  text-align: center;
+}
+
+.social-item {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.social-item:first-child {
+  margin-left: 0;
+}
+
+.twitter {
+  display: inline-block;
+  width: 17px;
+  height: 13.8px;
+  background: url(./images/twitter.svg);
+}
+
+.be {
+  display: inline-block;
+  width: 20.8px;
+  height: 13px;
+  background: url(./images/shape.svg);
+}
+
+.instagram {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(./images/instagram.svg);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 118px auto 0;
+  max-width: 1100px;
+  padding-bottom: 121px;
+
+  list-style: none;
+}
+
+.link-item {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+  font-size: 16px;
+  line-height: 1.88;
+  color: #979797;
+}
+
+.link-item:nth-child(2n-1) {
+  padding-right: 30px;
+}
+
+.link-item:nth-child(2n) {
+  padding-left: 30px;
+}
+
+.footer-contacts {
+  max-width: 1100px;
+  margin: 117px auto 0;
+}
+
+.contacts-title {
+  font-size: 28px;
+  line-height: 1.07;
+  color: #000000;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 61px;
+}
+
+.contacts-info {
+  width: 230px;
+
+  font-size: 16px;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.contats-social {
+  margin-top: 33px;
+}
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 743px;
+}
+
+.input-title {
+  margin-top: 29px;
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.input-title:first-child {
+  margin-top: 0;
+}
+
+.input {
+  margin-top: 4px;
+  padding: 11px 0;
+
+  font-style: 16px;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #cfcfcf;
+}
+
+.textarea {
+  padding: 11px 0 91px;
+  resize: none;
+}
+
+.button {
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  background-color: #cfcfcf;
+
+  background-image: url(./images/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  outline: none;
+  cursor: pointer;
+}
+
+.footer-info {
+  max-width: 1100px;
+  margin: 118px auto 0;
+  padding-bottom: 122px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.policy {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.footer-nav {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 339px;
+
+  font-size: 16px;
+  line-height: 1.88;
+  color: #979797;
+}
