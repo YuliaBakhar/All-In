@@ -117,17 +117,23 @@
           </ul>
         </div>
         <form class="contacts-form">
-          <label class="input-title">Name</label>
-          <input type="text" placeholder="Incognito" class="input" />
-          <label class="input-title"> E-Mail</label>
-          <input type="text" placeholder="incognito@gmail.com" class="input" />
-          <label class="input-title"> Message</label>
+          <label class="input-title" for="name">Name</label>
+          <input type="text" placeholder="Incognito" class="input" id="name" />
+          <label class="input-title" for="email"> E-Mail</label>
+          <input
+            type="text"
+            placeholder="incognito@gmail.com"
+            class="input"
+            id="email"
+          />
+          <label class="input-title" for="message"> Message</label>
           <textarea
             placeholder="Your question or suggestion"
             class="input textarea"
+            id="message"
           ></textarea>
         </form>
-        <button class="button"></button>
+        <button class="button" type="submit"></button>
       </div>
       <div class="footer-info">
         <span class="policy">Copyright © 2018 Denis Abdullin – deab.ru</span>
